@@ -10,7 +10,8 @@ const GridContainer = ({
   randomize = false,
   less = "less",
   more = "more",
-  fontSize = style,
+  fontSize,
+  style,
   children,
   ...content
 }) => {
