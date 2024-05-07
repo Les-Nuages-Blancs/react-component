@@ -12,6 +12,7 @@ const GridContainer = ({
   more = "more",
   fontSize = style,
   children,
+  ...content
 }) => {
   const [copyChildren, setCopyChildren] = useState(false);
   const [ignoreLimit, setIgnoreLimit] = useState(false);
@@ -62,7 +63,7 @@ const GridContainer = ({
   }, [copyChildren, ignoreLimit, margin, maxShow, nbColumn]);
 
   return (
-    <VBox mainBoxStyle={style}>
+    <VBox mainBoxStyle={style} {...content}>
       <div className="GridContainer">{cases}</div>
       {needShowMore && maxShow >= 0 && (
         <CenterContainer>

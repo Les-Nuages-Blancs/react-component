@@ -15,6 +15,7 @@ const Explorer = ({
   documents,
   currentDocument,
   setCurrentDocument,
+  ...content
 }) => {
   const [fileButtons, setFileButtons] = useState([]);
   const [isHover, setIsHover] = useState(false);
@@ -64,7 +65,7 @@ const Explorer = ({
   }, [folders, documents]);
 
   return (
-    <MarginContainer margin={"30px"}>
+    <MarginContainer margin={"30px"} {...content}>
       <VBox gap="10px">
         <HBox
           gap="10px"

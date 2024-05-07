@@ -7,6 +7,7 @@ const Loader = ({
   style = {},
   circleStyle = {},
   margin = "30px",
+  ...content
 }) => {
   const loaderStyle = {
     display: "flex",
@@ -51,7 +52,7 @@ const Loader = ({
   return (
     <div>
       <style>{keyframes}</style>
-      <div style={{ ...loaderStyle, ...style }}>
+      <div style={{ ...loaderStyle, ...style }} {...content}>
         <VBox>
           <CenterContainer style={{ margin }}>
             <div style={{ ...defaultCircleStyle, ...circleStyle }}></div>

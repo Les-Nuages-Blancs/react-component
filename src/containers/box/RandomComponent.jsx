@@ -7,6 +7,7 @@ const RandomComponent = ({
   randomButtonStyle = {},
   style,
   children,
+  ...content
 }) => {
   const [activeComponent, setActiveComponent] = useState(null);
   const getRandomComponent = useCallback(
@@ -42,6 +43,7 @@ const RandomComponent = ({
         position: "relative",
         ...style,
       }}
+      {...content}
     >
       {randomButton && (
         <span

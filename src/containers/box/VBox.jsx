@@ -10,6 +10,7 @@ const VBox = ({
   // style
   style,
   mainBoxStyle,
+  customWraperStyles = [],
   // other props
   ...content
 }) => {
@@ -30,7 +31,16 @@ const VBox = ({
       {children && children.length > 1 ? (
         children.map((child, index) => {
           return (
-            <div className="vBoxFragment" style={{ ...style }} key={index}>
+            <div
+              className="vBoxFragment"
+              style={{
+                ...style,
+                ...(customWraperStyles.length > index
+                  ? customWraperStyles[index]
+                  : {}),
+              }}
+              key={index}
+            >
               {child}
             </div>
           );

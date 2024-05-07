@@ -14,6 +14,7 @@ const InfiniteCarousel = ({
   renderVariableStyle,
   children,
   style,
+  ...content
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -124,6 +125,7 @@ const InfiniteCarousel = ({
         overflow: "hidden",
         ...style,
       }}
+      {...content}
     >
       {children && buildSlide(children)}
     </HBox>

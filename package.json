@@ -1,6 +1,6 @@
 {
   "name": "@liro_u/react-components",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "a collection of components made in react",
   "main": "index.js",
   "files": [

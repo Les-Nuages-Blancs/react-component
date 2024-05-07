@@ -44,7 +44,7 @@ const CheckBox = ({
   };
 
   return (
-    <div style={styleCheckBox}>
+    <div style={styleCheckBox} {...content}>
       <span
         className="material-symbols-outlined"
         onClick={
