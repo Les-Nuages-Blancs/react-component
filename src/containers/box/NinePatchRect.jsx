@@ -8,7 +8,7 @@ const NinePatchRect = ({
   bottom = 65,
   left = 65,
   right = 65,
-  src = "https://media.discordapp.net/attachments/1199345400084172800/1199348012250570842/GUI2FninePatch2Fbox.png?ex=65c236e0&is=65afc1e0&hm=3ae1c3a825f9a5dc2c38566fb802f38fe48d3c5d5a22162409d8b8c782237040&=&format=webp&quality=lossless&width=976&height=670",
+  src = "https://github.com/liro-u/react-component/blob/main/assets/ninePatch.png?raw=true",
   imageSizeX = 915,
   imageSizeY = 628,
   editMode = false,

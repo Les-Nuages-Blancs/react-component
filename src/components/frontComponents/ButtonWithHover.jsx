@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Text from "./Text";
 
 const ButtonWithHover = ({
-  normalImage = "https://media.discordapp.net/attachments/1199345400084172800/1199346104307822735/GUI2Fbutton2Fdownload.png?ex=65c2351a&is=65afc01a&hm=236b8c5353e386ec8fa50bc9bd48ee4661c52fc522b62f2f7e3beebb3d02bb45&=&format=webp&quality=lossless&width=432&height=135",
+  normalImage = "https://github.com/liro-u/react-component/blob/main/assets/buttonWithHover.png?raw=true",
   hoverImage,
   fontSize = "30px",
   style,

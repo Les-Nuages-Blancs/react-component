@@ -5,14 +5,14 @@ import VBox from "../VBox";
 import InfiniteCarousel from "./InfiniteCarousel";
 
 const CircleCarousel = ({
-  normalImage = "https://media.discordapp.net/attachments/1199345400084172800/1199353157357142076/GUI2FCarousel2FCircle2Farrow.png?ex=65c23bab&is=65afc6ab&hm=26bec987ed00407fc49abcd72aefd92ef3a94bf76f13400e6b851b87c08b192a&=&format=webp&quality=lossless&width=137&height=112",
+  normalImage = "https://github.com/liro-u/react-component/blob/main/assets/arrow.png?raw=true",
   hoverImage = "",
   switchRotation = false,
   switchDirection = false,
   switchSquareDirection = false,
   showSquare = true,
-  squareImageNormal = "https://media.discordapp.net/attachments/1199345400084172800/1199353311585894460/GUI2FCarousel2FCircle2Fsquare.png?ex=65c23bd0&is=65afc6d0&hm=793ca03b5eca52d8389132364f916b1a07369960223f7c5a7c47ae26748d5b4f&=&format=webp&quality=lossless&width=62&height=62",
-  squareImageSelected = "https://media.discordapp.net/attachments/1199345400084172800/1199353413788516563/GUI2FCarousel2FCircle2FsquareSelected.png?ex=65c23be8&is=65afc6e8&hm=c9ab53471bbd6d8ec7fe68d23cb2ad2369c66bc6b21806df36f43a0d7b8493b2&=&format=webp&quality=lossless&width=62&height=62",
+  squareImageNormal = "https://github.com/liro-u/react-component/blob/main/assets/voidSquare.png?raw=true",
+  squareImageSelected = "https://github.com/liro-u/react-component/blob/main/assets/square.png?raw=true",
   squareImageHover = "",
   children,
   ...content
