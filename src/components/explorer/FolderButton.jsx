@@ -14,7 +14,7 @@ const FolderButton = ({ path, title, style, ...content }) => {
         <Image
           width="100%"
           height="100%"
-          src="https://media.discordapp.net/attachments/1199345400084172800/1199345422158807131/GUI2FExplorer2Ffolder.png?ex=65c23477&is=65afbf77&hm=b1e384ec3c49e56cee0817b87db72705e3cb2a549865971d517c7cbaee87c0d0&=&format=webp&quality=lossless&width=640&height=640"
+          src="https://github.com/liro-u/react-component/blob/main/assets/folder.png?raw=true"
         />
         <Text
           text={title}
