@@ -3,13 +3,6 @@
   "version": "0.0.7",
   "description": "a collection of components made in react",
   "main": "index.js",
-  "files": [
-    "src",
-    "package.json",
-    ".babelrc",
-    "index.js",
-    "dist"
-  ],
   "scripts": {
     "build": "babel src -d dist",
     "prepublishOnly": "npm run build"
