@@ -19,7 +19,7 @@ const IconButton = ({
   return (
     <Icon
       iconName={iconName}
-      fontHeight={fontHeight}
+      fontSize={fontHeight}
       style={{
         transition: "background-color " + delay + "",
         backgroundColor: isHover
