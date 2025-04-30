@@ -20,6 +20,8 @@ import Image from "./dist/components/frontComponents/Image";
 import Text from "./dist/components/frontComponents/Text";
 import Video from "./dist/components/frontComponents/Video";
 import YoutubeVideo from "./dist/components/frontComponents/YoutubeVideo";
+import MarkdownRenderer from "./dist/components/frontComponents/MarkdownRenderer";
+import ModelViewer from "./dist/components/frontComponents/ModelViewer";
 
 ////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////  CONTAINERS  ////////////////////////////////
@@ -67,6 +69,8 @@ export { Image };
 export { Text };
 export { Video };
 export { YoutubeVideo };
+export { MarkdownRenderer };
+export { ModelViewer };
 
 //Box
 export { CenterContainer };
